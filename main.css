@@ -1,4 +1,4 @@
-/* IMPORTANT FOR PARALLAX TO WORK */
+
 .parallax-layers {
   position: relative;
   overflow: hidden;
@@ -99,10 +99,8 @@ h2:after {
   border-radius: 1px;
   top: -1rem;
 }
-/* Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-/* Global */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 /*type writer*/
 .line-1{
@@ -147,7 +145,7 @@ h2:after {
 }
 
 
-/*end vanbar*/
+/*end navbar*/
 
 /*Skills section*/
 .skillset .skillbar {
@@ -185,6 +183,7 @@ text-shadow:0.8px 0.7px #212121;
 }
 .skillset h3 {
   color:#ffbb33;
+  font-size: 25px;
   
 }
 

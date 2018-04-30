@@ -47,53 +47,32 @@ $(document).ready(function(){
 var skillset = {
 "languages": [
     {
-      "name": "JavaScript",
+      "name": "Java",
       "skill": 3
     },
     {
       "name": "HTML",
-      "skill": 4
+      "skill": 2
     },
     {
       "name": "CSS",
-      "skill": 3
+      "skill": 2
     },
     {
       "name": "C#",
       "skill": 1
     }
   ],
-"frameworks": [
+
+"databases": [
     {
-      "name": "jQuery",
-      "skill": 4
-    },
-    {
-      "name": "Handlebars",
-      "skill": 1
-    },
-    {
-      "name": "Bootstrap",
-      "skill": 4
-    },
-    {
-      "name": "Sass",
+      "name": "SQLite",
       "skill": 3
     },
     {
-      "name": "NodeJS",
-      "skill": 2
-    },
-    {
-      "name": "Express",
-      "skill": 1
-    },
-  ],
-"databases": [
-    {
-      "name": "MongoDB",
-      "skill": 1
-    },
+      "name": "MySQL",
+      "skill": 3
+    }
 ],
 
 "os": [
@@ -101,36 +80,12 @@ var skillset = {
       "name": "Windows",
       "skill": 5
     },
-    {
-      "name": "Android",
-      "skill": 4
-    },
+  
     {
       "name": "macOS",
-      "skill": 2
-    },
-    {
-      "name": "iOS",
-      "skill": 4
-    }],
-    "tools": [
-        {
-          "name": "ChromeDevTools",
-          "skill": 4
-        },
-        {
-          "name": "Atom",
-          "skill": 4
-        },
-        {
-          "name": "Photoshop",
-          "skill": 4
-        },
-        {
-          "name": "Git",
-          "skill": 2
-        }
-  ]
+      "skill": 3
+}]
+
 }
 
 
