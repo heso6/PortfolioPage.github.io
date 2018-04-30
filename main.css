@@ -104,14 +104,14 @@ h2:after {
 
 /* Global */
 
-
+/*type writer*/
 .line-1{
     position: relative;
     top: 50%;  
     width: 24em;
     margin: 0 auto;
     border-right: 4px solid rgba(255,255,255,.75);
-    font-size: 4vw;
+    font-size: 4.5vw;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -126,64 +126,69 @@ h2:after {
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 16.7em;}
+  to{width: 17.3em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
   }
-
 /*end type writer*/
+
 
 /*navbar navigatrion*/
 
+.navbar-nav a{
+  color: #ffbb33 !important;
+  font-size: 20px;
+}
+.navbar-collapse{
 
-/* Navbar links */
-#navbar {
-  overflow: hidden;
-  background-color: #233154;
-  opacity: 0.9;
-  
+  border-bottom:2px solid black !important;
 }
 
-#navbar a {
-  float: left;
-  display: block;
-  color:  #ffbb33;
-  
+
+/*end vanbar*/
+
+/*Skills section*/
+.skillset .skillbar {
+  height:30px;
+  color:#0D0E0E;
+  width:0px;
+  border-radius:8px;
+  text-align:center;
+text-shadow:0.8px 0.7px #212121;
+  transition:0.4s linear;
+  transition-property:width;
+}
+.skillset .skillbar-container{
+  width:75%;
+  border: 1px solid #212121;
+  background-color:#424242;
+  border-radius:8px;
+  margin-bottom:2%;
+    margin-left: 13%;
+
+}
+.skillset{
+  border: 2px black solid;
+  border-radius: 12px;
+  padding: 2%;
+  width:100%;
+  background: #0D0E0E;
+  opacity: 0.8;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
- 
+}
+.skillset ul {
+  list-style-type: none;
+  display:inline;
+
+}
+.skillset h3 {
+  color:#ffbb33;
+  
 }
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-  opacity: 0.2;
-}
-
-#navbar a.active {
-  background-color: #4CAF50;
-  color: white;
- opacity: 0.2;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
+/*End Skills section*/
 
 /*Contact section*/
 #contact{
@@ -299,13 +304,15 @@ h2:after {
     width: 28.666667%;
   }
 }
+/*end Contact section*/
 
+/*footer*/
 footer{
-  border-bottom:2px solid black;
+  border-top:2px solid black;
   font-size: 15px;
   padding-top: 2px;
   text-align: center;
   color: #ffbb33;
   margin: 0%;
 }
-
+/*end footer*/
