@@ -57,28 +57,24 @@ var skillset = {
     {
       "name": "CSS",
       "skill": 2
-    },
-    {
-      "name": "C#",
-      "skill": 1
     }
   ],
 
 "databases": [
     {
       "name": "SQLite",
-      "skill": 3
+      "skill": 2
     },
     {
       "name": "MySQL",
-      "skill": 3
+      "skill": 2
     }
 ],
 
 "os": [
     {
       "name": "Windows",
-      "skill": 5
+      "skill": 4
     },
   
     {
